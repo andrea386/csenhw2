@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quiz App</title>
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<header>
+  <div class="title-section">
+    <h1>Quiz App</h1>
+    <p id="subject">Subject: Pixar Films</p>
+    <p id="current-date"></p>
+  </div>
+</header>
+<main>
+  <div class="gif-container" id="gif-container">
+      <img src="mike.gif" alt="Mike Wazowski">
+  </div>
+  <div class="score-section">
+    <h2>Score</h2>
+    <p>Correct Answers: <span id="correct-answers">0</span></p>
+    <p>Incorrect Answers: <span id="incorrect-answers">0</span></p>
+    <p>Time Left: <span id="timer">00:00</span></p>
+  </div>
+  <div class="question-section">
+    <h2>Question</h2>
+    <p id="question-text"></p>
+    <form id="answer-form">
+      <!-- Dynamic question choices/options will be added here -->
+    </form>
+    <button id="submit-answer">Submit Answer</button>
+  </div>
+  <div class="control-section">
+    <button id="start-quiz">Start Quiz</button>
+    <button id="next-question" disabled>Next Question</button>
+    <button id="quit-quiz" disabled>Quit Quiz</button>
+  </div>
+</main>
+<footer>
+  <p>&copy; 2024 Pixar Quiz App. All rights reserved. Contact: afyao@scu.edu</p>
+</footer>
+<script src="game.js"></script>
+</body>
+</html>

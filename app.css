@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    font-family: Arial, sans-serif;
+    color: #818fa5;
+    background-color: #CCD3CA;
+  }
+  
+  header, main, footer{
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  header{
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  .gif-container{
+    text-align: center; /* Center the GIF horizontally */
+    margin-top: 20px; /* Adjust spacing from the top */
+    margin-bottom: 20px; /* Adjust spacing from the bottom */
+  }
+  
+  .gif-container img{
+    width: 30%; /* Adjusted width for smaller size */
+    height: auto;
+  }
+  
+  .title-section{
+    margin-bottom: 20px;
+  }
+  
+  .score-section, .question-section, .control-section{
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .score-section h2, .question-section h2, .control-section button{
+    margin-bottom: 10px;
+  }
+  
+  .question-section form{
+    margin-bottom: 20px;
+  }
+  
+  .question-section label{
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .question-section input[type="text"]{
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+  }
+  
+  footer{
+    text-align: center;
+    padding: 10px 0;
+    background-color: #F5E8DD;
+  }
+  
+  button{
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #CCD3CA;
+    color: #fff;
+    border: none;
+    border-radius: 0px;
+  }
+
+  button:hover{
+    background-color: #777e76;
+}
+  
+  button:disabled{
+    background-color: #aaa;
+    cursor: not-allowed;
+  }

@@ -1,0 +1,67 @@
+[
+    {
+        "question": "Which Pixar film features a clownfish named Marlin searching for his son Nemo?",
+        "type": 1,
+        "choices": ["Toy Story", "Finding Nemo", "Up", "The Incredibles"],
+        "correctIndex": 1,
+        "score": 5
+      },
+      {
+        "question": "What is the name of the young girl who befriends a monster named Sulley in Pixar's 'Monsters, Inc.'?",
+        "type": 2,
+        "correctAnswer": "Boo",
+        "score": 10
+      },
+      {
+        "question": "Which Pixar film follows the adventures of an old man named Carl and a young Wilderness Explorer named Russell?",
+        "type": 1,
+        "choices": ["Inside Out", "Coco", "Finding Dory", "Up"],
+        "correctIndex": 3,
+        "score": 5
+      },
+      {
+        "question": "In Pixar's 'Toy Story', what is the name of the cowboy doll who is the leader of the toys?",
+        "type": 2,
+        "correctAnswer": "Woody",
+        "score": 10
+      },
+      {
+        "question": "Which Pixar film features a rat named Remy who dreams of becoming a chef?",
+        "type": 1,
+        "choices": ["Brave", "Cars", "Ratatouille", "WALL-E"],
+        "correctIndex": 2,
+        "score": 5
+      },
+      {
+        "question": "What is the name of the space ranger action figure in Pixar's 'Toy Story'?",
+        "type": 2,
+        "correctAnswer": "Buzz Lightyear",
+        "score": 10
+      },
+      {
+        "question": "Which Pixar film tells the story of a robot named WALL-E who falls in love with another robot named EVE?",
+        "type": 1,
+        "choices": ["Monsters University", "The Good Dinosaur", "Inside Out", "WALL-E"],
+        "correctIndex": 3,
+        "score": 5
+      },
+      {
+        "question": "In Pixar's 'Finding Dory', what type of fish is Dory?",
+        "type": 2,
+        "correctAnswer": "Blue Tang",
+        "score": 10
+      },
+      {
+        "question": "Which Pixar film features a family of superheroes?",
+        "type": 1,
+        "choices": ["The Incredibles", "Cars", "Toy Story 3", "Coco"],
+        "correctIndex": 0,
+        "score": 5
+      },
+      {
+        "question": "In the movie Monsters University, what is the name of the fraternity that Mike and Sulley join in their quest to become scarers?",
+        "type": 2,
+        "correctAnswer": "Oozma Kappa",
+        "score": 10
+      }
+]
